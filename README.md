@@ -1,5 +1,5 @@
 # Colour"Blind"
-A collection of IDL colour blind friendly colour tables for both discrete and continuous data, provided for use with the Interactive Data Language (IDL). 
+A collection of colour blind friendly colour tables for both discrete and continuous data, provided for use with the Interactive Data Language (IDL). 
 
 This repository was inspired after many people approached me to judge the colour blind friendliness of their plots. The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins") and provide them in an easy-to-use format.
 
