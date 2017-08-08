@@ -18,7 +18,7 @@ Using BibTeX, you can acknowledge/cite this repository as:
 
 @misc{pjwright, 
 author = {Paul J. Wright},  
-title = {{A Collection of Colour Blind Friendly Colour Tables}},  
+title = {{Colour"Blind": A Collection of Colour Blind Friendly Colour Tables}},  
 month = Aug,  
 year = 2017,  
 doi = {10.5281/zenodo.840393},  
