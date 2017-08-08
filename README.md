@@ -39,7 +39,8 @@ url = {doi.org/10.5281/zenodo.840393}
 
 ### Further Reading:
 
- * [Paul Tol's Personal Website](https://personal.sron.nl/~pault/): An excellent selection of existing IDL routines for discrete and continuous colour tables.
+ * [Paul Tol's Personal Website](https://personal.sron.nl/~pault/): An excellent selection of existing IDL routines for discrete and continuous colour tables: **distinct_colors.pro**; **sunset_colors.pro**; **burd_colors.pro**; **rainbow_colors.pro**
+
  * [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html): A short piece on colour blindness in Nature Methods.
  * [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
  * [http://mkweb.bcgsc.ca/colorblind/](http://mkweb.bcgsc.ca/colorblind/)
