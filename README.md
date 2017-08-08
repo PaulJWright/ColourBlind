@@ -14,7 +14,7 @@ A collection of colour blind friendly colour tables for both discrete and contin
 ---------------------
 
 
-Using BibTeX, you can cite this repository as:
+Using BibTeX, you can acknowledge/cite this repository as:
 
 @misc{pjwright, 
 author = {Paul J. Wright},  
