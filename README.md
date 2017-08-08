@@ -35,7 +35,7 @@ url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWrig
 
 **colorblind.pro:**
 
-  A set of 7 (+ black and white) colorblind friendly colors based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
+  A set of 7 (+ black and white) colour blind friendly colors based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
     
 > For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
 
@@ -52,7 +52,8 @@ plot,x,y,color=0 ;color = 0 through 8
 
 
 **colorblind2.pro:**
-A set of 7 (+ black and white) colorblind friendly colors. These colours are more vibrant than **colorblind.pro**
+A set of 7 (+ black and white) colour blind friendly colors. These colours are more vibrant than **colorblind.pro**. Inspired by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html), with some changes. 
+
 
 ```IDL
 .compile colorblind2.pro
