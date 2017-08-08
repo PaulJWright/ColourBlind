@@ -35,7 +35,7 @@ url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWrig
 
 **colorblind.pro:**
 
-  A set of 7 colorblind friendly colors based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
+  A set of 7 (+ black and white) colorblind friendly colors based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
     
 > For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
 
@@ -46,13 +46,21 @@ colorblind, n_colors=7, /ploteps
 ; EPS indicating the color indexes for the range of n_colors (SolarSoftWare required)
 xpalette ;xpalette will display the colour table 
 ; plot as normal, i.e.:
-plot,x,y,color=0 ;color = 0 through 7
+plot,x,y,color=0 ;color = 0 through 8
 ```
 ![colorblind.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind.png)
 
 
-**.pro:**
-> ...
+**colorblind2.pro:**
+A set of 7 (+ black and white) colorblind friendly colors based on [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html). These colours are more vibrant than **colorblind.pro**
+
+```IDL
+.compile colorblind
+xpalette ;xpalette will display the colour table 
+; plot as normal, i.e.:
+plot,x,y,color=0 ;color = 0 through 8
+```
+![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind2.png)
 
 ---------------------
 
