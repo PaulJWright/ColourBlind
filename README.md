@@ -63,7 +63,7 @@ xpalette ;xpalette will display the colour table
 ; plot as normal, i.e.:
 plot,x,y,color=0 ;color = 0 through 8
 ```
-![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind2.png)
+![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/cb2.png)
 
 ---------------------
 
