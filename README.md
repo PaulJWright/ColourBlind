@@ -55,7 +55,10 @@ plot,x,y,color=0 ;color = 0 through 8
 A set of 7 (+ black and white) colorblind friendly colors. These colours are more vibrant than **colorblind.pro**
 
 ```IDL
-.r colorblind2.pro
+.compile colorblind2.pro
+colorblind2, n_colors=7, /ploteps
+; the code loads in a 7 colour colour table and outputs an 
+; EPS indicating the color indexes for the range of n_colors (SolarSoftWare required)
 xpalette ;xpalette will display the colour table 
 ; plot as normal, i.e.:
 plot,x,y,color=0 ;color = 0 through 8
