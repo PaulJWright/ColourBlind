@@ -38,8 +38,9 @@ PRO colorblind, N_colors = colnum, PLOTEPS = ploteps
   ; CONTACT:
   ;
   ;       Comments, feedback, and bug reports regarding this routine may be
-  ;       directed to this email address:
-  ;                paul@pauljwright.co.uk
+  ;       directed to this email address: ; paul@pauljwright.co.uk
+  ;       
+  ;                https://github.com/PaulJWright/ColourBlind
   ;
   ; MODIFICATION HISTORY:
   ;
@@ -50,6 +51,7 @@ PRO colorblind, N_colors = colnum, PLOTEPS = ploteps
   ;-
   ; =========================================================================
 
+  
   IF KEYWORD_SET(colnum) THEN BEGIN
     colnum = ROUND(colnum)
     IF (colnum LT 1 OR colnum GT 7) THEN BEGIN
@@ -113,5 +115,18 @@ PRO colorblind, N_colors = colnum, PLOTEPS = ploteps
     device,/close
     setplot,'x'
   ENDIF
+  
+  print, 'To spread the word, please cite work as follows: '
+  print, ''
+  print, '@misc{pjwright, author = {Paul J. Wright},'
+  print, 'title = {{A Collection of Colour Blind Friendly Colour Tables}},'
+  print, 'month = Aug,'
+  print, 'year = 2017,'
+  print, 'doi = {10.5281/zenodo.840393},'
+  print, 'version = {1.0},'
+  print, 'publisher = {Zenodo},'
+  print, 'url = {doi.org/10.5281/zenodo.840393}'
+  print, '}'
+  
   
 END
