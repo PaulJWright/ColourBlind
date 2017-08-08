@@ -39,6 +39,13 @@ url = {doi.org/10.5281/zenodo.840393}
     
 > For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
 
+```IDL
+.compile colorblind
+colorblind, n_colors=7, /ploteps
+; colorblind with 7 colours and the EPS output requested (required SSW)
+; The EPS output indicates the color indexes for the range of n_colors
+```
+
 **.pro:**
 > ...
 
