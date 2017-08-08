@@ -17,7 +17,7 @@ year = 2017,
 doi = {10.5281/zenodo.840393},  
 version = {1.0},  
 publisher = {Zenodo},  
-url = {doi.org/10.5281/zenodo.840393}   
+url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWright/ColourBlind)}    
 }
 
 <a href="https://doi.org/10.5281/zenodo.840393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840393.svg" alt="DOI"></a>
@@ -46,9 +46,10 @@ colorblind, n_colors=7, /ploteps
 ; EPS indicating the color indexes for the range of n_colors (SolarSoftWare required)
 xpalette ;xpalette will display the colour table 
 ; plot as normal, i.e.:
-plot,x,y,color=1
-
+plot,x,y,color=0 ;color = 0 through 7
 ```
+![colorblind.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind.png)
+
 
 **.pro:**
 > ...
@@ -63,3 +64,8 @@ plot,x,y,color=1
  * [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
  * [http://mkweb.bcgsc.ca/colorblind/](http://mkweb.bcgsc.ca/colorblind/)
  * [http://jfly.iam.u-tokyo.ac.jp/color/](http://jfly.iam.u-tokyo.ac.jp/color/)
+ 
+### Useful Links:
+
+* [Color Oracle](http://colororacle.org/) is a free colour blindness simulator for Linux/Mac/Windows. In their own words: "it takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see."
+
