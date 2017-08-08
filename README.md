@@ -30,11 +30,11 @@ url = {doi.org/10.5281/zenodo.840393}
 <a href="https://doi.org/10.5281/zenodo.840393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840393.svg" alt="DOI"></a>
 
 
-### Further Reading
+### Further Reading:
 
-http://blog.usabilla.com/how-to-design-for-color-blindness/
-https://personal.sron.nl/~pault/: A good selection of existing IDL routines for discrete and continuous colour tables
-http://mkweb.bcgsc.ca/colorblind/
-Wong, B. Nat. Methods 8, 441 (2011). https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html
-http://jfly.iam.u-tokyo.ac.jp/color/
-
+ * [Paul Tol's Personal Website](https://personal.sron.nl/~pault/): A good selection of existing IDL routines for discrete and continuous colour tables
+ * [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html)
+ 
+ * [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
+ * [http://mkweb.bcgsc.ca/colorblind/](http://mkweb.bcgsc.ca/colorblind/)
+ * [http://jfly.iam.u-tokyo.ac.jp/color/](http://jfly.iam.u-tokyo.ac.jp/color/)
