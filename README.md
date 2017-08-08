@@ -42,8 +42,12 @@ url = {doi.org/10.5281/zenodo.840393}
 ```IDL
 .compile colorblind
 colorblind, n_colors=7, /ploteps
-; colorblind with 7 colours and the EPS output requested (required SSW)
-; The EPS output indicates the color indexes for the range of n_colors
+; the code loads in a 7 colour colour table and outputs an 
+; EPS indicating the color indexes for the range of n_colors (SolarSoftWare required)
+xpalette ;xpalette will display the colour table 
+; plot as normal, i.e.:
+plot,x,y,color=1
+
 ```
 
 **.pro:**
