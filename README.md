@@ -22,9 +22,9 @@ url = {doi.org/10.5281/zenodo.840393}
 
 <a href="https://doi.org/10.5281/zenodo.840393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840393.svg" alt="DOI"></a>
 
-### Publications using Colour"Blind":
+#### Publications using Colour"Blind":
 
-* [Wright, P. J., Hannah, I. G., Grefenstette, B. W., et al. 2017, ApJ,
+1. [Wright, P. J., Hannah, I. G., Grefenstette, B. W., et al. 2017, ApJ,
 844, 132](http://iopscience.iop.org/article/10.3847/1538-4357/aa7a59/meta) \[Open Access]
 
 
