@@ -6,7 +6,8 @@ A collection of colour blind friendly colour tables for both discrete and contin
 **colorblind.pro:**
   A set of colorblind friendly colors based on the Notes of Paul Tol (https://personal.sron.nl/~pault/):
     
-  > For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
+- > For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
+
 
 ---------------------
 Using BibTeX, you can cite this repository as:
