@@ -26,6 +26,22 @@ url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWrig
 1. [Wright, P. J., Hannah, I. G., Grefenstette, B. W., et al. 2017, ApJ,
 844, 132](http://iopscience.iop.org/article/10.3847/1538-4357/aa7a59/meta) \[Open Access]
 
+------------
+## Colour Blindness
+
+Colour blindness is really a misnomer. Those who are colour blind are generally colour vision deficient, which is the inability to distinguish certain colours rather than not being able to see them at all. 
+
+<a title="By Nanobot (Own work) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AColor_blindness.png"><img width="480" alt="Color blindness" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Color_blindness.png"/></a>
+
+One method for detecting someone's ability to perceive colour, is the Ishihara test:
+
+### [Ishihara colour perception test](https://en.wikipedia.org/wiki/Ishihara_test)
+
+Two example Ishihara colour test plates ([Source: Wikipedia](https://en.wikipedia.org/wiki/Ishihara_test))
+
+![Ishihara Test Plate](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ishihara_1.svg/240px-Ishihara_1.png) ![Ishihara Test Plate](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ishihara_9.png/240px-Ishihara_9.png)
+
+> (Left) Demonstration plate designed to be visible by all persons, whether normal or colour vision deficient. (Right) The number "74" should be clearly visible to viewers with normal colour vision. Viewers with [dichromacy](https://en.wikipedia.org/wiki/Dichromacy) or anomalous [trichromacy](https://en.wikipedia.org/wiki/Trichromacy) may read it as "21", and viewers with [monochromacy](https://en.wikipedia.org/wiki/Monochromacy) may see nothing.
 
 
 ---------------------
@@ -34,9 +50,9 @@ url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWrig
 
 **colorblind.pro:**
 
-  A set of 7 (+ black and white) colour blind friendly colors based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
+  A set of 7 (+ black and white) colour blind friendly colours based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
     
-> For 5 or more colors, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colors, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical color association, e.g. cloud fraction above oceans blue and above desert yellow.
+> For 5 or more colours, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colours, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical colour association, e.g. cloud fraction above oceans blue and above desert yellow.
 
 ```IDL
 .compile colorblind.pro
@@ -52,7 +68,7 @@ plot,x,y,color=0 ;color = 0 through 8
 
 **colorblind2.pro:**
 
-A set of 7 (+ black and white) colour blind friendly colors. These colours are more vibrant than **colorblind.pro**. Inspired in some part by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html).
+A set of 7 (+ black and white) colour blind friendly colours. These colours are more vibrant than **colorblind.pro**. Inspired in some part by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html).
 
 
 ```IDL
@@ -66,6 +82,23 @@ plot,x,y,color=0 ;color = 0 through 8
 ```
 ![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/cb2.png)
 
+
+**NPR_Colors.pro:**
+
+A set of 5 (+ black and white) colour blind friendly colours used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR))
+](http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem).
+
+
+```IDL
+.compile NPR_Colors.pro
+NPR_Colors
+; the code loads in all colours
+xpalette ;xpalette will display the colour table 
+; plot as normal, i.e.:
+plot,x,y,color=0 ;color = 0 through 8
+```
+
+![NPR Colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/npr_colorblind2.png)
 ---------------------
 
 ### Further Reading:
@@ -76,8 +109,13 @@ plot,x,y,color=0 ;color = 0 through 8
  * [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
  * [http://mkweb.bcgsc.ca/colorblind/](http://mkweb.bcgsc.ca/colorblind/)
  * [http://jfly.iam.u-tokyo.ac.jp/color/](http://jfly.iam.u-tokyo.ac.jp/color/)
+ * [https://knightlab.northwestern.edu/2016/07/18/three-tools-to-help-you-make-colorblind-friendly-graphics/](https://knightlab.northwestern.edu/2016/07/18/three-tools-to-help-you-make-colorblind-friendly-graphics/)
  
 ### Useful Links:
 
-* [Color Oracle](http://colororacle.org/) is a free colour blindness simulator for Linux/Mac/Windows. In their own words: "it takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see."
+* [Color Oracle](http://colororacle.org/) is a free colour blindness simulator for Linux/Mac/Windows. In their own words: "it takes the guesswork out of designing for colour blindness by showing you in real time what people with common colour vision impairments will see."
+* [coolors.co](https://coolors.co/) is a free colour scheme generator.
+* [Gregor Aisch’s chroma tool](http://gka.github.io/palettes) is useful for optimizing your diverging colour palettes. It can help you take two or more colors and generate a full scale of in-between values.
+* [ColorBrewer](http://colorbrewer2.org/) has a range of palettes that are colorblind safe.
+
 
