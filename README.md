@@ -52,10 +52,11 @@ I am currently investigating a replacement for <b>loadct,4</b> (a notoriously ba
 
 <a><img width="240" alt="loadct, 4" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4.png"/>
 <img width="240" alt="loadct, 4_new" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4a.png"/>
-<img width="360" alt="loadct, 4_new test plot" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/CT_Test.png"/>
 </a>
-
+<!-- <img width="360" alt="loadct, 4_new test plot" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/CT_Test.png"/> -->
 > (Left) loadct,4. (Right) a work in progress that aims to replace loadct,4 in situations where the middle of the colour table is located at 0.
+
+![Hex colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/ct4.png)
 ---------------------
 
 ## Code descriptions and their origins:
