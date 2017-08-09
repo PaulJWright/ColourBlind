@@ -119,4 +119,4 @@ plot,x,y,color=0 ;color = 0 through 8
 * [Gregor Aisch’s chroma tool](http://gka.github.io/palettes) is useful for optimizing your diverging colour palettes. It can help you take two or more colors and generate a full scale of in-between values.
 * [ColorBrewer](http://colorbrewer2.org/) has a range of palettes that are colorblind safe.
 * [Multi-hued Color Scales](https://www.vis4.net/blog/posts/mastering-multi-hued-color-scales/) A blog post on multi-hued colour scales.
-
+* [COLOURLovers](www.colourlovers.com/) Pre-made colour palettes, and trends.
