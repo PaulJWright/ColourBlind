@@ -3,9 +3,10 @@ A collection of colour blind friendly colour tables for both discrete and contin
 
 This repository was inspired after many people approached me to judge the colour blind friendliness of their plots. The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins") and provide them in an easy-to-use format. 
 
-If you wish to acknowledge use of this repository, I recommend text as follows:
+If you wish to acknowledge use of this repository, I recommend text such as the following:
 
-> Some/all of the figures within this paper were produced using IDL colour blind friendly colour tables \citep[see][]{pjwright}.
+* > Some/all of the figures within this paper were produced using IDL colour blind friendly colour tables \citep[see][]{pjwright}.
+* > This research made use of IDL colour blind friendly colour tables \citep[see][]{pjwright}.
 
 where the BibTeX entry is as follows ([In accordance with advice outlined by the AAS](http://journals.aas.org/authors/references.html)):
 
