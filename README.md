@@ -44,7 +44,18 @@ Two example Ishihara colour test plates ([Source: Wikipedia](https://en.wikipedi
 
 > (Left) Demonstration plate designed to be visible by all persons, whether normal or colour vision deficient. (Right) The number "74" should be clearly visible to viewers with normal colour vision. Viewers with [dichromacy](https://en.wikipedia.org/wiki/Dichromacy) or anomalous [trichromacy](https://en.wikipedia.org/wiki/Trichromacy) may read it as "21", and viewers with [monochromacy](https://en.wikipedia.org/wiki/Monochromacy) may see nothing.
 
+### A Comment on loadct,4
 
+[9th August 2016]
+
+I am currently investigating a replacement for <b>loadct,4</b> (a notoriously bad colour table for those with colour blindness) where the middle of the colour table is centered on 0.
+
+<a><img width="240" alt="loadct, 4" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4.png"/>
+<img width="240" alt="loadct, 4_new" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4a.png"/>
+<img width="360" alt="loadct, 4_new test plot" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/CT_Test.png"/>
+</a>
+
+> (Left) loadct,4. (Right) a work in progress that aims to replace loadct,4 in situations where the middle of the colour table is located at 0.
 ---------------------
 
 ## Code descriptions and their origins:
