@@ -52,7 +52,8 @@ plot,x,y,color=0 ;color = 0 through 8
 
 
 **colorblind2.pro:**
-A set of 7 (+ black and white) colour blind friendly colors. These colours are more vibrant than **colorblind.pro**. Inspired by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html), with some changes. 
+
+A set of 7 (+ black and white) colour blind friendly colors. These colours are more vibrant than **colorblind.pro**. Inspired in some part by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html).
 
 
 ```IDL
