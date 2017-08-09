@@ -110,17 +110,6 @@ PRO colorblind2, N_colors = colnum, PLOTEPS = ploteps
     setplot,'x'
   ENDIF
   
-  print, 'To spread the word, please cite work as follows: '
-  print, ''
-  print, '@misc{pjwright, author = {Paul J. Wright},'
-  print, 'title = {{A Collection of Colour Blind Friendly Colour Tables}},'
-  print, 'month = Aug,'
-  print, 'year = 2017,'
-  print, 'doi = {10.5281/zenodo.840393},'
-  print, 'version = {1.0},'
-  print, 'publisher = {Zenodo},'
-  print, 'url = {doi.org/10.5281/zenodo.840393}'
-  print, '}'
-  
+  print, 'To spread the word, please cite work as Wright (2017). Details can be found at https://github.com/PaulJWright/ColourBlind'
   
 END
