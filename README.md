@@ -85,7 +85,7 @@ plot,x,y,color=0 ;color = 0 through 8
 
 **NPR_Colors.pro:**
 
-A set of 5 (+ black and white) colour blind friendly colours used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR)
+A set of 6 (+ black and white) colour blind friendly colours based on those used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR)
 ](http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem).
 
 
