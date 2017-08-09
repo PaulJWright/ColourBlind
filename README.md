@@ -15,7 +15,6 @@ title = {{Colour"Blind": A Collection of IDL Colour Blind Friendly Colour Tables
 month = Aug,  
 year = 2017,  
 doi = {10.5281/zenodo.840393},  
-version = {1.0},  
 publisher = {Zenodo},  
 url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWright/ColourBlind)}    
 }
