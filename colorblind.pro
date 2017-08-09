@@ -116,6 +116,6 @@ PRO colorblind, N_colors = colnum, PLOTEPS = ploteps
     setplot,'x'
   ENDIF
   
-  print, 'For more info see: https://github.com/PaulJWright/ColourBlind'
+  print, 'To spread the word, please cite work as Wright (2017). Details can be found at https://github.com/PaulJWright/ColourBlind'
   
 END
