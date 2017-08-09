@@ -85,7 +85,7 @@ plot,x,y,color=0 ;color = 0 through 8
 
 **NPR_Colors.pro:**
 
-A set of 5 (+ black and white) colour blind friendly colours used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR))
+A set of 5 (+ black and white) colour blind friendly colours used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR)
 ](http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem).
 
 
@@ -98,7 +98,7 @@ xpalette ;xpalette will display the colour table
 plot,x,y,color=0 ;color = 0 through 8
 ```
 
-![NPR Colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/npr_colorblind2.png)
+![NPR Colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/npr_colorblind3.png)
 ---------------------
 
 ### Further Reading:
