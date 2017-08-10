@@ -1,5 +1,5 @@
 # Colour"Blind"
-A collection of colour blind friendly colour tables for both discrete and continuous data, provided for use with the Interactive Data Language (IDL).
+A collection of colour blind friendly colour tables for both discrete and continuous data, provided for use with the Interactive Data Language (IDL). RGB values can additionally be found within the code descriptions below.
 
 This repository was inspired after many people approached me to judge the colour blind friendliness of their plots. The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins") and provide them in an easy-to-use format. 
 
@@ -76,13 +76,20 @@ xpalette ;xpalette will display the colour table
 ; plot as normal, i.e.:
 plot,x,y,color=0 ;color = 0 through 8
 ```
+
+where the RGB values are:
+```IDL
+R = [68,102,34,204,238,170,187]    
+G = [119,204,136,187,102,51,187]   
+B = [170,238,51,68,119,119,187]   
+```
+
 ![colorblind.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind.png)
 
 
 **colorblind2.pro:**
 
 A set of 7 (+ black and white) colour blind friendly colours. These colours are more vibrant than **colorblind.pro**. Inspired in some part by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html).
-
 
 ```IDL
 .compile colorblind2.pro
@@ -93,6 +100,14 @@ xpalette ;xpalette will display the colour table
 ; plot as normal, i.e.:
 plot,x,y,color=0 ;color = 0 through 8
 ```
+
+where the RGB values are:
+```IDL
+R = [0,86,0,240,230,213,187]   
+G = [114,180,158,228,159,94,187]   
+B = [178,233,115,66,0,0,187]   
+```
+
 ![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/cb2.png)
 
 
@@ -101,7 +116,6 @@ plot,x,y,color=0 ;color = 0 through 8
 A set of 6 (+ black and white) colour blind friendly colours based on those used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR)
 ](http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem).
 
-
 ```IDL
 .compile npr_colors.pro
 npr_colors
@@ -109,6 +123,13 @@ npr_colors
 xpalette ;xpalette will display the colour table 
 ; plot as normal, i.e.:
 plot,x,y,color=0 ;color = 0 through 8
+```
+
+where the RGB values are:
+```IDL
+R = [224,240,231,82,0,237]  
+G = [70,159,223,192,98,237] 
+B = [6,82,190,173,100,237]  
 ```
 
 ![NPR Colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/npr_colorblind3.png)
