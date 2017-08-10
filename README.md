@@ -20,6 +20,8 @@ publisher = {Zenodo},
 url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWright/ColourBlind)}    
 }
 
+with the DOI that is not specific to a particular version:
+
 <a href="https://doi.org/10.5281/zenodo.840393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840393.svg" alt="DOI"></a>
 
 #### Publications using Colour"Blind":
