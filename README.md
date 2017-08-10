@@ -48,15 +48,15 @@ Two example Ishihara colour test plates ([Source: Wikipedia](https://en.wikipedi
 
 ### A Comment on loadct,4
 
-[9th August 2016]
+[9th August 2017]
 
-I am currently investigating a replacement for <b>loadct,4</b> (a notoriously bad colour table for those with colour blindness) where the middle of the colour table is centered on 0.
+I am currently investigating a replacement for <b>loadct,4</b> (a notoriously bad colour table for those with colour blindness) where the data is diverging (the data straddle 0, or show a departure from a reference value).
 
 <a><img width="240" alt="loadct, 4" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4.png"/>
 <img width="240" alt="loadct, 4_new" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4a.png"/>
 </a>
 <!-- <img width="360" alt="loadct, 4_new test plot" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/CT_Test.png"/> -->
-> (Left) loadct,4. (Right) a work in progress that aims to replace loadct,4 in situations where the middle of the colour table is located at 0.
+> (Left) loadct,4. (Right) a work in progress that aims to replace loadct,4 in situations where data is diverging:
 
 ![Hex colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/ct4.png)
 ---------------------
@@ -67,7 +67,7 @@ I am currently investigating a replacement for <b>loadct,4</b> (a notoriously ba
 
   A set of 7 (+ black and white) colour blind friendly colours based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
     
-> For 5 or more colours, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colours, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical colour association, e.g. cloud fraction above oceans blue and above desert yellow.
+> "For 5 or more colours, I use them in clockwise order from bottom left (https://personal.sron.nl/~pault/images/betterdistinct.png): blue, cyan, green, yellow, red, pink, grey (and black). For 4 or fewer colours, I switch cyan and red: blue, red, green, yellow. But I deviate when plot lines have a logical colour association, e.g. cloud fraction above oceans blue and above desert yellow."
 
 ```IDL
 .compile colorblind.pro
