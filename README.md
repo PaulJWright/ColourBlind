@@ -5,14 +5,14 @@ This repository was inspired after many people approached me to judge the colour
 
 If you wish to acknowledge use of this repository, I recommend text such as the following:
 
-* > Some/all of the figures within this paper were produced using IDL colour blind friendly colour tables \citep[see][]{pjwright}.
-* > This research made use of IDL colour blind friendly colour tables \citep[see][]{pjwright}.
+* > Some/all of the figures within this paper were produced using IDL colour-blind friendly colour tables \citep[see][]{pjwright}.
+* > This research made use of IDL colour-blind friendly colour tables \citep[see][]{pjwright}.
 
 where the BibTeX entry is as follows ([In accordance with advice outlined by the AAS](http://journals.aas.org/authors/references.html)):
 
 >@misc{pjwright,   
 author = {Paul J. Wright},  
-title = {{ColourBlind: A Collection of IDL Colour Blind Friendly Colour Tables}},  
+title = {{ColourBlind: A Collection of IDL Colour-Blind Friendly Colour Tables}},  
 month = Aug,  
 year = 2017,  
 doi = {10.5281/zenodo.840393},  
