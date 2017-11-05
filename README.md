@@ -1,5 +1,5 @@
 # ColourBlind
-A collection of colour blind friendly colour tables for sequential, diverging, and qualitative data, provided for use with the Interactive Data Language (IDL). RGB values can additionally be found within the code descriptions below. 
+A collection of colour-blind-friendly colour tables for sequential, diverging, and qualitative data, provided for use with the Interactive Data Language (IDL). RGB values can additionally be found within the code descriptions below. 
 
 This repository was inspired after many people approached me to judge the colour blind friendliness of their plots (and in some part, by this [tweet](https://twitter.com/pjasimoes/status/844858515000766464)). The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins") and provide them in an easy-to-use format. For those looking for nice examples, [this article on picking a colour scale for scientific graphics](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/) is a great start, and a number of the [colorbrewer](http://colorbrewer2.org/) tables can be found within IDL. Additionally [this GitHub repository](https://github.com/planetarymike/IDL-Colorbars) allows the user to import matplotlib (http://bids.github.io/colormap/) colour tables into IDL.
 
@@ -12,7 +12,7 @@ where the BibTeX entry is as follows ([In accordance with advice outlined by the
 
 >@misc{pjwright,   
 author = {Paul J. Wright},  
-title = {{ColourBlind: A Collection of IDL Colour-Blind-Friendly Colour Tables}},  
+title = {{ColourBlind: A Collection of IDL Colour-blind-friendly Colour Tables}},  
 month = Aug,  
 year = 2017,  
 doi = {10.5281/zenodo.840393},  
