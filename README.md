@@ -26,7 +26,7 @@ with the DOI that is not specific to a particular version:
 
 #### Publications using ColourBlind:
 
-2. [Marsh, A. J., Smith, D. M., Glesener, L, et al. 2017, ApJ, in revision]()
+2. [Marsh, A. J., Smith, D. M., Glesener, L, et al. 2017, ApJ, 849, 131](http://iopscience.iop.org/article/10.3847/1538-4357/aa9122/meta)
 1. [Wright, P. J., Hannah, I. G., Grefenstette, B. W., et al. 2017, ApJ,
 844, 132](http://iopscience.iop.org/article/10.3847/1538-4357/aa7a59/meta) \[Open Access]
 
