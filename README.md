@@ -1,34 +1,46 @@
 # ColourBlind
-A collection of colour-blind-friendly colour tables for sequential, diverging, and qualitative data, provided for use with the Interactive Data Language (IDL). RGB values can additionally be found within the code descriptions below. 
 
-This repository was inspired after many people approached me to judge the colour blind friendliness of their plots (and in some part, by this [tweet](https://twitter.com/pjasimoes/status/844858515000766464)). The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins") and provide them in an easy-to-use format. For those looking for nice examples, [this article on picking a colour scale for scientific graphics](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/) is a great start, and a number of the [colorbrewer](http://colorbrewer2.org/) tables can be found within IDL. Additionally [this GitHub repository](https://github.com/planetarymike/IDL-Colorbars) allows the user to import matplotlib (http://bids.github.io/colormap/) colour tables into IDL.
+##### she dreams in colour, she dreams in `loadct, 39`
+
+
+ColourBlind is a collection of colour-blind-friendly colour tables for sequential, diverging, and qualitative data, provided for use with the Interactive Data Language (IDL). RGB values can additionally be found within the code descriptions below. 
+
+This repository was inspired after many people approached me to judge the colour blind friendliness of their plots (and in some part, by this [tweet](https://twitter.com/pjasimoes/status/844858515000766464)). The final aim of this repository is to collate colours tables from many sources (see "code descriptions and their origins"), and provide them in an easy-to-use format. For those looking for nice examples, [this article on picking a colour scale for scientific graphics](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/) is a great start, and a number of the [colorbrewer](http://colorbrewer2.org/) tables can be found within IDL. Additionally [this GitHub repository](https://github.com/planetarymike/IDL-Colorbars) allows the user to import matplotlib (http://bids.github.io/colormap/) colour tables into IDL.
 
 If you wish to acknowledge use of this repository, I recommend text such as the following:
 
 * > Some/all of the figures within this paper were produced using IDL colour-blind-friendly colour tables \citep[see][]{pjwright}.
-* > This research made use of IDL colour-blind-friendly colour tables \citep[see][]{pjwright}.
+* > This research made use of IDL colour-blind-friendly colour tables \citep[see][]{2017zndo....840393W}.
 
-where the BibTeX entry is as follows ([In accordance with advice outlined by the AAS](http://journals.aas.org/authors/references.html)):
+where the BibTeX entry is as follows (taken from https://ui.adsabs.harvard.edu/abs/2017zndo....840393W):
 
->@misc{pjwright,   
-author = {Paul J. Wright},  
-title = {{ColourBlind: A Collection of IDL Colour-blind-friendly Colour Tables}},  
-month = Aug,  
-year = 2017,  
-doi = {10.5281/zenodo.840393},  
-publisher = {Zenodo},  
-url = {[https://github.com/PaulJWright/ColourBlind](https://github.com/PaulJWright/ColourBlind)}    
+> @MISC{2017zndo....840393W, \
+       author = {{Wright}, Paul}, \
+        title = "{ColourBlind: A Collection of Colour-blind-friendly Colour Tables}", \
+         year = 2017, \
+        month = aug, \
+          eid = {10.5281/zenodo.840393}, \
+          doi = {10.5281/zenodo.840393}, \
+    publisher = {Zenodo}, \
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2017zndo....840393W}, \
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System} \
 }
 
-with the DOI that is not specific to a particular version:
+In this example, the DOI is not specific to a particular version:
 
 <a href="https://doi.org/10.5281/zenodo.840393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840393.svg" alt="DOI"></a>
 
 #### Publications using ColourBlind:
 
-2. [Marsh, A. J., Smith, D. M., Glesener, L, et al. 2017, ApJ, 849, 131](http://iopscience.iop.org/article/10.3847/1538-4357/aa9122/meta)
-1. [Wright, P. J., Hannah, I. G., Grefenstette, B. W., et al. 2017, ApJ,
+
+1. [Wright, P. J.; Hannah, I. G.; Grefenstette, B. W., et al. 2017, ApJ,
 844, 132](http://iopscience.iop.org/article/10.3847/1538-4357/aa7a59/meta) \[Open Access]
+2. [Marsh, A. J.; Smith, D. M.; Glesener, L., et al. 2017, ApJ, 849, 131](http://iopscience.iop.org/article/10.3847/1538-4357/aa9122/meta)
+3. [Reep, J. W.; Russell, A. J. B.; Tarr, L. A.; Leake, J. E, 2018 ApJ, 853, 101](https://iopscience.iop.org/article/10.3847/1538-4357/aaa2fe)
+4. [Reep, J. W.; Polito, V.; Warren, H. P.; Crump, N. A., 2018, ApJ, 856, 149](https://iopscience.iop.org/article/10.3847/1538-4357/aab273)
+5. [Rempel, M., 2020, arXiv:2004.01795](https://arxiv.org/abs/2004.01795)
+
+
 
 ------------
 ## Colour Blindness
@@ -49,22 +61,19 @@ Two example Ishihara colour test plates ([Source: Wikipedia](https://en.wikipedi
 
 ### A Comment on loadct,4
 
-[9th August 2017]
+[2nd May 2020]
 
-I am currently investigating a replacement for <b>loadct,4</b> (a notoriously bad colour table for those with colour blindness) where the data is diverging (the data straddle 0, or show a departure from a reference value).
+I would highly recomemnd against this colour table as it notoriously bad (for folk with colour blindness) but is widely used for data that is diverging (the data straddle 0, or show a departure from a reference value).
 
 <a><img width="240" alt="loadct, 4" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4.png"/>
-<img width="240" alt="loadct, 4_new" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/loadct4a.png"/>
 </a>
-<!-- <img width="360" alt="loadct, 4_new test plot" src="https://github.com/PaulJWright/ColourBlind/blob/master/images/CT_Test.png"/> -->
-> (Left) loadct,4. (Right) a work in progress that aims to replace loadct,4 in situations where data is diverging:
+> loadct,4.
 
-![Hex colours](https://github.com/PaulJWright/ColourBlind/blob/master/images/ct4.png)
 ---------------------
 
 ## Code descriptions and their origins:
 
-**colorblind.pro:**
+`colorblind.pro`
 
   A set of 7 (+ black and white) colour blind friendly colours based on the notes of Paul Tol (https://personal.sron.nl/~pault/):
     
@@ -90,7 +99,7 @@ B = [170,238,51,68,119,119,187]
 ![colorblind.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/colorblind.png)
 
 
-**colorblind2.pro:**
+`colorblind2.pro`
 
 A set of 7 (+ black and white) colour blind friendly colours. These colours are more vibrant than **colorblind.pro**. Inspired in some part by [Wong, B. Nat. Methods 8, 441 (2011)](https://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1618.html).
 
@@ -114,7 +123,7 @@ B = [178,233,115,66,0,0,187]
 ![colorblind2.pro xpalette](https://github.com/PaulJWright/ColourBlind/blob/master/images/cb2.png)
 
 
-**npr_colors.pro:**
+`npr_colors.pro`
 
 A set of 6 (+ black and white) colour blind friendly colours based on those used by [NPR (Credit: Katie Park, Alyson Hurt, Tyler Fisher and Lisa Charlotte Rost/NPR)
 ](http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem).
@@ -155,4 +164,4 @@ B = [6,82,190,173,100,237]
 * [Gregor Aisch’s chroma tool](http://gka.github.io/palettes) is useful for optimizing your diverging colour palettes. It can help you take two or more colors and generate a full scale of in-between values.
 * [ColorBrewer](http://colorbrewer2.org/) has a range of palettes that are colorblind safe.
 * [Multi-hued Color Scales](https://www.vis4.net/blog/posts/mastering-multi-hued-color-scales/) A blog post on multi-hued colour scales.
-* [COLOURLovers](www.colourlovers.com/) Pre-made colour palettes, and trends.
+* [COLOURLovers](https://www.colourlovers.com/) Pre-made colour palettes, and trends.
